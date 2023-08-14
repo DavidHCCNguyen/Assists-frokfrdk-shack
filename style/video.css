@@ -1,0 +1,22 @@
+/* Reset default margin and padding */
+body, h1, p, section {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+
+/* Apply styles to the video content section */
+.video_content {
+    margin-top: 90px; /* 50px + 40px */
+    padding: 20px; /* Add space around the content */
+}
+
+/* Style the video list */
+.video_list {
+    text-align: center; /* Center the videos horizontally */
+}
+
+/* Style each video iframe */
+.video_list iframe {
+    margin: 10px; /* Add space around each video */
+}
