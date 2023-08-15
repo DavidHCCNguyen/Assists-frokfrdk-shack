@@ -1,0 +1,115 @@
+/* Reset default margins and paddings */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy ExtraBold";
+    
+}
+
+body {
+    background: #111;
+}
+/* Style for the header/navbar */
+.header {
+    background-color: #333;
+    background: linear-gradient(rgb(61, 24, 128), rgb(94, 38, 196));
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.header .nav-links {
+    display: flex;
+    justify-content: center;
+}
+
+.header_links {
+    list-style: none;
+    display: flex;
+}
+
+.header_links li {
+    margin-right: 20px;
+}
+
+.header_links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style for the featured section */
+.featured {
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+}
+
+.featured_heading {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.featured_tags {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.featured_description {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+/* Style for the footer */
+.footer {
+    background-color: #333;
+    background: linear-gradient(rgb(61, 24, 128), rgb(94, 38, 196));
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Media Query for responsive design */
+@media (max-width: 768px) {
+    .header .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+}

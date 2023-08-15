@@ -6,11 +6,11 @@
 
 body {
     background: #111;
-    margin-top: 80px; /* Adjust the margin to create space for the header */
+    margin-top: 80px;
 }
 
 .header {
-    max-height: 80px;
+    max-height: 50px;
     max-width: 100%;
     width: 90%;
     background: linear-gradient(rgb(61, 24, 128), rgb(94, 38, 196));
@@ -117,4 +117,27 @@ nav a {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: left;
+}
+
+.footer {
+    background: linear-gradient(rgb(94, 38, 196), rgb(61, 24, 128));
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #FF6B00; /* Hover color */
 }
