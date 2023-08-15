@@ -57,6 +57,7 @@ body {
 .featured_heading {
     font-size: 28px;
     margin-bottom: 10px;
+    color: white;
 }
 
 .featured_tags {
@@ -68,6 +69,12 @@ body {
 .featured_description {
     font-size: 16px;
     margin-bottom: 30px;
+}
+
+.featured-item {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    gap: 20px; /* Add some space between the image and content */
 }
 
 .action-buttons {
@@ -110,6 +117,12 @@ body {
 .footer-links a {
     text-decoration: none;
     color: white;
+}
+
+.square-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* Maintain the aspect ratio and cover the entire container */
 }
 
 /* Media Query for responsive design */
