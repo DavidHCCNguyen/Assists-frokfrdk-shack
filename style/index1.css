@@ -15,7 +15,10 @@ body {
     background: linear-gradient(rgb(61, 24, 128), rgb(94, 38, 196));
     color: white;
     text-align: center;
-    padding: 10px 0;
+    display: flex; /* Display header content in a flex container */
+    justify-content: space-between; /* Space between header content */
+    align-items: center;
+    padding: 10px 20px;
 }
 
 .header h1 {
@@ -91,6 +94,9 @@ body {
     position: absolute;
     width: 100%;
     bottom: 0;
+    justify-content: space-between; /* Space between header content */
+    align-items: center;
+    padding: 10px 20px;
 }
 
 .footer-links {
